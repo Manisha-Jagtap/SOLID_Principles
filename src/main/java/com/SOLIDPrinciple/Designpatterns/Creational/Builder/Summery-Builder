@@ -1,0 +1,28 @@
+
+Implementaion consideration:-
+------------------------------------------------------------------------------
+easily create immutable class by implementing builder as an inner static class.residing the builder under the class is frequenct scenario
+Abstract builder not required incase of only one prodcut class itself.
+Too many constructor arguments good to use Builder
+
+Real World Application: JDK, Spring struts and hibernate
+------------------------------------------------------------------------------
+java.io.calander.builder
+
+Bulider Design Pattern VS Prototype Desigan pattern:
+both are creational
+_________________________________________________________________________________
+Proto type DEsign Pattern           Prototype
+clone the existing object           object.clone(); doesnt work with constructor they work with clone methid
+
+Builder can be create as sperate    need to modify existing code(override colne method)
+class
+
+________________________________________________________________________________
+method chaning meight sound challanging
+if properties are missing we must need to initialize with default values.
+
+
+
+
+
