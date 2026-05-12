@@ -1,0 +1,8 @@
+
+when every there is object is created on bascis of IF-Else Comparision
+then we use simple design pattern
+
+we put instantiation logic into separate class & mostly to static method
+
+Sometime not considered as DP, as its simply method that encapsulated object instantiation nothing complex
+
