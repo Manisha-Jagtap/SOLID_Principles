@@ -1,4 +1,4 @@
-package com.SOLIDPrinciple.Designpatterns.Creational.Builder;
+package com.SOLIDPrinciple.Designpatterns.Creational.Builder.Immutable;
 
 import lombok.Data;
 
