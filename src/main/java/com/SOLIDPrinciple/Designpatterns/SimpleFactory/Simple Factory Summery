@@ -12,3 +12,23 @@ UML
 Client ------> SimpleFactory [getProduct(String): Product]--------> Product (interface /abstract)
                                                               --------> Product A
                                                               --------> Product B
+
+
+Simple Factory advance version is Factory Method.
+
+Real WORLD
+java.number.NumberFormat
+
+Compare and Contrast
+Simple Factory                  and                     Factory Method
+instatiation logic from client to static method         Useful when One object hands over some responsibility/work to another object
+Knows Abt classes whose object it can create            we dont know abt all product subclass
+
+
+pit fall:
+when instatioation is complex use the factory method instead
+
+
+
+
+
